@@ -1,0 +1,91 @@
+---
+manufacturer: Edgecore
+model: 9716-32D-O-AC-F
+slug: edgecore-9716-32d-o-ac-f
+part_number: 9716-32D-O-AC-F
+u_height: 1
+is_full_depth: true
+comments: |
+  [Edgecore DCS510 DATA CENTER SWITCH AS9716-32D Data Sheet](https://www.edge-core.com/wp-content/uploads/2024/07/DCS510-AS9716-32D-Datasheet-R09.pdf)
+console-ports:
+  - name: Console
+    type: rj-45
+module-bays:
+  - name: PSU 1
+    position: '1'
+  - name: PSU 2
+    position: '2'
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth1
+    type: 10gbase-x-sfpp
+    mgmt_only: true
+  - name: eth2
+    type: 10gbase-x-sfpp
+    mgmt_only: true
+  - name: Ethernet0
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet4
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet8
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet12
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet16
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet20
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet24
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet28
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet32
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet36
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet40
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet44
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet48
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet52
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet56
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet60
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet64
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet68
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet72
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet76
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet80
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet84
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet88
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet92
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet96
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet100
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet104
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet108
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet112
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet116
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet120
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet124
+    type: 400gbase-x-qsfpdd
