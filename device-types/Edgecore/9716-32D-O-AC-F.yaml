@@ -5,7 +5,7 @@ slug: edgecore-9716-32d-o-ac-f
 part_number: 9716-32D-O-AC-F
 u_height: 1
 weight: 11.06
-weight-unit: kg
+weight_unit: kg
 is_full_depth: true
 description: Edgecore DCS510 DATA CENTER SWITCH AS9716-32D; Intel® Xeon® Processor D-1518 4-Core; 32-Port 400G QSFP-DD; ONIE Software Installer
 comments: |
