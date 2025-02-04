@@ -1,0 +1,76 @@
+---
+manufacturer: Supermicro
+model: SuperServer 221H-TNR
+slug: supermicro-sys-221h-tnr
+part_number: SYS-221H-TNR
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+comments: SuperServer SYS-221H-TNR (https://www.supermicro.com/en/products/system/Hyper/2U/SYS-221H-TNR)
+subdevice_role: parent
+weight: 18.2
+weight_unit: kg
+front_image: true
+rear_image: true
+interfaces:
+  - name: BMC 1
+    type: 1000base-t
+    mgmt_only: true
+    description: IPMI LAN port 1
+  - name: eth0
+    type: 10gbase-t
+    mgmt_only: false
+    description: AIOM / OCP 3.0 NIC Slot
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PCIe 1
+    position: PCIe1
+    label: PCIe 1
+  - name: PCIe 2
+    position: PCIe2
+    label: PCIe 2
+  - name: PCIe 3
+    position: PCIe3
+    label: PCIe 3
+  - name: PCIe 4
+    position: PCIe4
+    label: PCIe 4
+  - name: PCIe 5
+    position: PCIe5
+    label: PCIe 5
+  - name: PCIe 6
+    position: PCIe6
+    label: PCIe 6
+  - name: PCIe 7
+    position: PCIe7
+    label: PCIe 7
+  - name: PCIe 8
+    position: PCIe8
+    label: PCIe 8
+  - name: NVMe 1
+    position: NVMe1
+    label: NVMe 1
+  - name: NVMe 2
+    position: NVMe2
+    label: NVMe 2
+  - name: NVMe 3
+    position: NVMe3
+    label: NVMe 3
+  - name: NVMe 4
+    position: NVMe4
+    label: NVMe 4
+  - name: NVMe 5
+    position: NVMe5
+    label: NVMe 5
+  - name: NVMe 6
+    position: NVMe6
+    label: NVMe 6
+  - name: NVMe 7
+    position: NVMe7
+    label: NVMe 7
+  - name: NVMe 8
+    position: NVMe8
+    label: NVMe 8
