@@ -1,0 +1,123 @@
+---
+manufacturer: Supermicro
+model: GPU SuperServer 421GE-TNRT
+slug: supermicro-sys-530mt-h8tnr
+part_number: SYS-421GE-TNRT
+u_height: 4
+is_full_depth: true
+airflow: front-to-rear
+comments: GPU SuperServer SYS-421GE-TNRT (https://www.supermicro.com/en/products/system/gpu/4u/sys-421ge-tnrt)
+subdevice_role: parent
+weight: 29.7
+weight_unit: kg
+front_image: true
+rear_image: true
+interfaces:
+  - name: BMC 1
+    type: 1000base-t
+    mgmt_only: true
+    description: IPMI LAN port 1
+  - name: BMC 2
+    type: 1000base-t
+    mgmt_only: true
+    description: IPMI LAN port 2
+  - name: eth0
+    type: 10gbase-t
+    mgmt_only: false
+    description: Intel® X710-AT2
+  - name: eth1
+    type: 10gbase-t
+    mgmt_only: false
+    description: Intel® X710-AT2
+module-bays:
+  - name: PSU1
+    position: PSU1
+  - name: PSU2
+    position: PSU2
+  - name: PCIe 1
+    position: PCIe1
+    label: PCIe 1
+  - name: PCIe 2
+    position: PCIe2
+    label: PCIe 2
+  - name: PCIe 3
+    position: PCIe3
+    label: PCIe 3
+  - name: PCIe 4
+    position: PCIe4
+    label: PCIe 4
+  - name: PCIe 5
+    position: PCIe5
+    label: PCIe 5
+  - name: PCIe 6
+    position: PCIe6
+    label: PCIe 6
+  - name: PCIe 7
+    position: PCIe7
+    label: PCIe 7
+  - name: PCIe 8
+    position: PCIe8
+    label: PCIe 8
+  - name: PCIe 9
+    position: PCIe9
+    label: PCIe 9
+  - name: PCIe 10
+    position: PCIe10
+    label: PCIe 10
+  - name: PCIe 11
+    position: PCIe11
+    label: PCIe 11
+  - name: PCIe 12
+    position: PCIe12
+    label: PCIe 12
+  - name: PCIe 13
+    position: PCIe13
+    label: PCIe 13
+  - name: NVMe 1
+    position: NVMe1
+    label: NVMe 1
+  - name: NVMe 2
+    position: NVMe2
+    label: NVMe 2
+  - name: NVMe 3
+    position: NVMe3
+    label: NVMe 3
+  - name: NVMe 4
+    position: NVMe4
+    label: NVMe 4
+  - name: NVMe 5
+    position: NVMe5
+    label: NVMe 5
+  - name: NVMe 6
+    position: NVMe6
+    label: NVMe 6
+  - name: NVMe 7
+    position: NVMe7
+    label: NVMe 7
+  - name: NVMe 8
+    position: NVMe8
+    label: NVMe 8
+  - name: SATA 1
+    position: SATA1
+    label: SATA 1
+  - name: SATA 2
+    position: SATA2
+    label: SATA 2
+  - name: SATA 3
+    position: SATA3
+    label: SATA 3
+  - name: SATA 4
+    position: SATA4
+    label: SATA 4
+  - name: SATA 5
+    position: SATA5
+    label: SATA 5
+  - name: SATA 6
+    position: SATA6
+    label: SATA 6
+  - name: SATA 7
+    position: SATA7
+    label: SATA 7
+  - name: SATA 8
+    position: SATA8
+    label: SATA 8
