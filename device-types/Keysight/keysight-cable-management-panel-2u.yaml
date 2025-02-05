@@ -1,0 +1,9 @@
+---
+manufacturer: Keysight
+model: Keysight Cable Management Panel 2U
+slug: keysight-cable-management-panel-2u
+u_height: 2
+is_full_depth: false
+airflow: passive
+is_powered: false
+front_image: true
