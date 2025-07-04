@@ -1,0 +1,85 @@
+---
+manufacturer: Mellanox
+model: SN4700 (SONiC)
+slug: mellanox-sn4700-sonic
+u_height: 1
+is_full_depth: true
+comments: |
+  Data sheet: https://network.nvidia.com/files/doc-2020/br-sn4000-series.pdf
+  SONiC-optimized interface naming: Ethernet0 through Ethernet252 in steps of 4
+console-ports:
+  - name: con0
+    type: rj-45
+power-ports:
+  - name: psu0
+    type: iec-60320-c14
+  - name: psu1
+    type: iec-60320-c14
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+  - name: Ethernet0
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet4
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet8
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet12
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet16
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet20
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet24
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet28
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet32
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet36
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet40
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet44
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet48
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet52
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet56
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet60
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet64
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet68
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet72
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet76
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet80
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet84
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet88
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet92
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet96
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet100
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet104
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet108
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet112
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet116
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet120
+    type: 400gbase-x-qsfpdd
+  - name: Ethernet124
+    type: 400gbase-x-qsfpdd
